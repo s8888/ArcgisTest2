@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://@sbaseurl@/jsapi/jsapi/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define(["dojo/_base/declare","./_BasicServiceChooserContent","./GpServiceBrowser"],function(a,b,c){return a([b],{baseClass:"jimu-gp-service-chooser-content",_examples:["http://myserver/arcgis/rest/services","http://myserver/arcgis/rest/services/myservice/GpServer","http://sampleserver6.arcgisonline.com/arcgis/rest/services/Elevation/ESRI_Elevation_World/GPServer/Viewshed"],_createServiceBrowser:function(a){return new c(a)}})});
